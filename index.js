@@ -9,13 +9,13 @@ obj.key=value;
   return obj;
 }
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
-  object.key=value;
-    return object;
+  obj.key=value;
+    return obj;
 
 }
-function deleteFromObjectByKey(object, key){
-delete object.key;
-return object;
+function deleteFromObjectByKey(obj, key){
+delete obj.key;
+return obj;
 
 }
 
