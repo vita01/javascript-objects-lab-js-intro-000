@@ -1,7 +1,7 @@
 
 
-
-  var obj = { prop: 1 };
+var obj=new Object([prop: 1])
+//  var obj = { prop: 1 };
   function updateObjectWithKeyAndValue(obj, key, value){
 
 //var newObj = Object.assign({}, obj,{key:value});
